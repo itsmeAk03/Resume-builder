@@ -1,0 +1,158 @@
+/* General Styles for the Website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #333, #000); /* Dark gradient background */
+    color: #fff; /* Text color */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for form */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #444; /* Dark input background */
+    color: #fff; /* Input text color */
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .resume-preview {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for resume preview */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Template 1 Styles */
+.resume-template1 {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-template1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-template1 h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-template1 p {
+    margin-bottom: 10px;
+  }
+  
+  /* Template 2 Styles */
+  .resume-template2 {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  }
+  
+  .resume-template2 h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume-template2 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+ /* Template 3 Styles */
+.resume-template3 {
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-template3 .left-column {
+    width: 30%;
+    padding: 20px;
+  }
+  
+  .resume-template3 .right-column {
+    width: 65%;
+    padding: 20px;
+  }
+  
+  .resume-template3 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-template3 h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-template3 .left-column h2,
+  .resume-template3 .left-column p {
+    margin-bottom: 10px;
+  }
+  
+  .resume-template3 .right-column h3 {
+    margin-top: 0;
+  }
+  
